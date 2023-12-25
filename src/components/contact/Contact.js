@@ -61,7 +61,7 @@ const Contact = () => {
         }
 
         if (clientName && email && emailValidation(email) && messages) {
-            axios.post("https://getform.io/f/dc696f9e-54cd-4e35-9ffa-a93d2c0958cd", {
+            axios.post("https://getform.io/f/05d00c62-69a3-459d-86eb-6d8343518389", {
                 name: clientName,
                 email: email,
                 message: messages
