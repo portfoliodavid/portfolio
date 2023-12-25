@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .borderTop {
+    @apply border-t-[1px] border-gray-600;
+  }
+
+  .borderBottom {
+    @apply border-b-[1px] border-b-gray-600;
+  }
+
+  .borderRight {
+    @apply border-r-[1px] border-r-gray-600;
+  }
+
+  .borderLeft {
+    @apply border-l-[1px] border-l-gray-600;
+  }
+
+  .borderAll {
+    @apply border-[1px] border-gray;
+  }
+
+ /* About Me */
+
+  .aboutRightLi {
+    @apply text-zinc-400 text-base font-normal flex justify-between items-center border-b-[1px] border-gray-600 py-2;
+  }
+
+  .aboutRightLiSpan {
+    @apply bg-designColor text-black uppercase px-4 py-[1px] rounded-md;
+  }
+
+  /* ======================== About Me End ============================ */
+  .sidenavLi {
+    @apply text-textColor border-b-[1px] border-b-zinc-500 py-4 text-base hover:text-designColor duration-300
+  }
+}
