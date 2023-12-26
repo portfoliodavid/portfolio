@@ -154,6 +154,12 @@ const Skills = () => {
             <span className="text-designColor text-lg">
               <GiCheckMark />
             </span>
+            Redis
+          </li>
+          <li className="flex items-center gap-4 text-textColor">
+            <span className="text-designColor text-lg">
+              <GiCheckMark />
+            </span>
             REST Api
           </li>
           <li className="flex items-center gap-4 text-textColor">
